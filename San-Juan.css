@@ -14,16 +14,12 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 380px auto 38px 56px;
+  margin: 368px auto 50px 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 435px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-left: 0;
   }
 }
 
@@ -84,4 +80,21 @@
   .u-section-2 .u-text-2 {
     font-size: 0.875rem;
   }
+}.subrayado24 {
+display: inline-block;
+padding-bottom: 45px;
+background: linear-gradient(to right, #000000 0% 70%, transparent 70% 75%, #EC6608 75% 100%);
+background-size: 100% 3px;
+background-repeat: no-repeat;
+position: relative;
+background-position: 0 27px;
+}
+.subrayado16 {
+display: inline-block;
+padding-bottom: 30px;
+background: linear-gradient(to right, #000000 0% 70%, transparent 70% 75%, #EC6608 75% 100%);
+background-size: 100% 3px;
+background-repeat: no-repeat;
+position: relative;
+background-position: 0 18px;
 }
