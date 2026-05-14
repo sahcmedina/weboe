@@ -14,41 +14,51 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 368px auto 50px 0;
+  margin: 367px auto 51px 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 435px;
+    min-height: 477px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 319px;
+    margin-bottom: 50px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 476px;
+    min-height: 527px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-bottom: 0;
+    margin-top: 368px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 357px;
+    min-height: 476px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 316px;
+    margin-bottom: 51px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 273px;
+    min-height: 308px;
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 156px;
+    margin-top: 147px;
     margin-right: 94px;
-    margin-bottom: 8px;
+    margin-bottom: 52px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 841px;
@@ -295,21 +305,4 @@
     width: 44px;
     height: 44px;
   }
-}.subrayado24 {
-display: inline-block;
-padding-bottom: 45px;
-background: linear-gradient(to right, #000000 0% 70%, transparent 70% 75%, #EC6608 75% 100%);
-background-size: 100% 3px;
-background-repeat: no-repeat;
-position: relative;
-background-position: 0 27px;
-}
-.subrayado16 {
-display: inline-block;
-padding-bottom: 30px;
-background: linear-gradient(to right, #000000 0% 70%, transparent 70% 75%, #EC6608 75% 100%);
-background-size: 100% 3px;
-background-repeat: no-repeat;
-position: relative;
-background-position: 0 18px;
 }
