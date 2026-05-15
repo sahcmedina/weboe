@@ -499,11 +499,11 @@
 }
 
 .u-section-4 :hover > .u-container-layout .u-layout-wrap-1 {
-  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+  transform: scale(1.2) translateX(0px) translateY(0px) !important;
 }
 
 .u-section-4 .hover > .u-container-layout .u-layout-wrap-1 {
-  transform: scale(1.1) translateX(0px) translateY(0px) !important;
+  transform: scale(1.2) translateX(0px) translateY(0px) !important;
 }.u-section-5 .u-sheet-1 {
   min-height: 435px;
 }
